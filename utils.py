@@ -15,6 +15,3 @@ class utils:
             raise TypeError("input should be an int")
         
         return bin(num), oct(num)
-    
-test = utils()
-print(test.reversed(-12345))
